@@ -11,7 +11,7 @@ for(let num in array1) {
     console.log("Numero "+num+": "+array1[num]);
 }
 
-array1 = array1.sort()
+array1 = array1.sort((a,b) => a - b);
 
 console.log("\n"+"Primer: "+array1[0])
 console.log("Ultim: "+array1[4])

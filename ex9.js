@@ -11,4 +11,5 @@ for (let i = 0; i < pelicules.length; i++) {
     }
 }
 
+
 console.log(pelicules[posicioP])
